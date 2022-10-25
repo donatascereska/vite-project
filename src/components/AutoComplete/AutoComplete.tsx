@@ -8,7 +8,7 @@ interface Props {
 export const AutoComplete = ({ onPlaceSelected }: Props): ReactElement => {
   return (
     <Autocomplete
-      apiKey={'AIzaSyBR8cEiJI24gCfhzogRI9_xm7zNzZUHz_A'}
+      apiKey={''}
       onPlaceSelected={onPlaceSelected}
     />
   );
